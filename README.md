@@ -1,0 +1,6 @@
+# binary-search-2-dimensional-array
+
+The binary search algorithm begins by comparing the target value to the value of the middle element of the sorted array. If the target value is equal to the middle element's value, then the position is returned and the search is finished. If the target value is less than the middle element's value, then the search continues on the lower half of the array; or if the target value is greater than the middle element's value, then the search continues on the upper half of the array. This process continues, eliminating half of the elements, and comparing the target value to the value of the middle element of the remaining elements - until the target value is either found (and its associated element position is returned), or until the entire array has been searched (and "not found" is returned).
+
+This repository uses the binary search in order to locate an entry in a two-dimensional array.
+The program creates an 11x11 array and the user search for keys in this array.
